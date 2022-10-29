@@ -5,10 +5,12 @@
   text-decoration: none !important;
 }
 header{
-  height: 56.25em;
-  background-image: url(./rasim/Rectangle.jpg);
+  width: 100%;
+  height: 100vh;
+  background-image: url('./rasim/Rectangle.jpg');
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 .navbar{
   height: 5em;
@@ -16,7 +18,7 @@ header{
 }
 .navbar ul{
   height: 3.6em;
-  padding-left: 57.5em;
+  padding-left: 45em;
 }
 .navbar ul li{
   cursor: pointer;
@@ -34,7 +36,7 @@ section{
   height: 36em;
 }
 .xizmatlar{
-  padding-top: 6.25em;
+  padding-top: 100px;
   width: 46.188em;
 }
 .birinchi p{
@@ -85,4 +87,67 @@ section{
 }
 .page-rivojlanish hr{
   margin-top: 80px;
+}
+/* start third section */
+.uchinchi{
+  width: 100%;
+  height: 440px;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;;
+}
+.page-xizmatlar{
+  padding-top: 100px;
+  width: 1000px;
+}
+.page-cards{
+  padding-top: 50px;
+}
+.page-xizmatlar h2{
+  color: white;
+}
+.card{
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+}
+.card-title{
+  color: #4985FF;
+}
+.card-text{
+  color: grey;
+  margin-top: 20px;
+}
+/* start qo'shimcha section */
+.qoshimchaku{
+  height: 70px;
+}
+.qoshimchaku hr{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 400px;
+}
+/* start fourth section */
+.tortinchi{
+  height: 700px;
+  background: #F6F6F8;;
+}
+.page-bizningloyihalar{
+  padding-top: 100px;
+  width: 1100px;
+}
+.rasim1{
+  padding-top: 50px;
+  width: 1100px;
+}
+.text3{
+  color: grey;
+  padding-top: 50px;
+  width: 620px;
+}
+/* start fifth section */
+.beshinchi{
+  width: 100%;
+  height: 450px;
+  background-image: url('./rasim/section\ video.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
