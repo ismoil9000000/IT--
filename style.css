@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+:root{
+  --monster: 'Montserrat', sans-serif;
+}
 *{
   margin: 0;
   padding: 0;
@@ -13,10 +17,12 @@ header{
   background-size: cover;
 }
 .navbar{
-  height: 5em;
+  height: 4.50em;
   border-bottom: 1px solid grey;
 }
 .navbar ul{
+  font-family: var(--monster);
+  font-weight: 500;
   height: 3.6em;
   padding-left: 45em;
 }
@@ -26,9 +32,12 @@ header{
   padding: 0em 0.940em;
 }
 .head-body p{
+  font-family: var(--monster);
   color: rgb(228, 228, 228);
 }
 .head-body h1{
+  font-family: var(--monster);
+  font-weight: 800;
   color: white;
 }
 /* start first section */
@@ -39,7 +48,13 @@ section{
   padding-top: 100px;
   width: 46.188em;
 }
+.xizmatlar h2{
+  font-family: var(--monster);
+  font-weight: 700;
+  color: #323232;
+}
 .birinchi p{
+  font-family: var(--monster);
   color: grey;
 }
 .sayt-yaratish{
@@ -145,9 +160,101 @@ section{
 /* start fifth section */
 .beshinchi{
   width: 100%;
-  height: 450px;
+  height: 400px;
   background-image: url('./rasim/section\ video.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.page-video{
+  width: 950px;
+  padding-top: 50px;
+}
+.page-video h2{
+  color: white;
+}
+.page-video p{
+  color: rgb(218, 218, 218);
+}
+.video-rasim{
+  position: relative;
+  padding-top: 20px;
+  width: 950px;
+  height: 440px;
+}
+.video-buton{
+  position: absolute;
+  top: 175px;
+  left: 347px;
+}
+/* start six section */
+.oltinchi{
+  height: 360px;
+}
+.oltinchi hr{
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 270px;
+  color: gray;
+}
+.page-search{
+  padding-top: 70px;
+  width: 420px;
+}
+.search input[type=text] {
+  width: 290px;
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  outline: none;
+}
+.search input::placeholder{
+  font-size: 13px;
+  color: grey;
+  padding-left: 20px;
+}
+.search button {
+  width: 104px;
+  float: right;
+  padding: 6px 10px;
+  color: white;
+  background: #4985FF;
+  font-size: 17.5px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.search form{
+  border: 1px solid #F2F2F2;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  height: 40px;
+}
+/* start footer */
+footer{
+  background: #F6F6F8;
+  height: 400px;
+}
+.malumotlar{
+  padding-top: 40px;
+  width: 980px;
+}
+.malumotlar ul li{
+  margin-left: -30px;
+  margin-top: 18px;
+  color: #999999;
+}
+.malumotlar ul li a{
+  color: #999999;
+}
+footer hr{
+  margin-top: 55px;
+  width: 980px;
+}
+footer p{
+  padding-top: 17px;
+  color: #999999;;
 }
