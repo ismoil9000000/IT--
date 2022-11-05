@@ -26,10 +26,14 @@ header{
   height: 3.6em;
   padding-left: 45em;
 }
+.navbar ul li a{
+  color: white;
+  font-size: 1em;
+}
 .navbar ul li{
   cursor: pointer;
   color: white;
-  padding: 0em 0.940em;
+  padding: 0px 25px;
 }
 .head-body p{
   font-family: var(--monster);
@@ -46,7 +50,7 @@ section{
 }
 .xizmatlar{
   padding-top: 100px;
-  width: 46.188em;
+  width: 80%;
 }
 .xizmatlar h2{
   font-family: var(--monster);
@@ -87,7 +91,7 @@ section{
 }
 .page-rivojlanish{
   padding-top: 70px;
-  width: 1000px;
+  width: 100%;
   height: 600px;
 }
 .text2{
@@ -95,7 +99,7 @@ section{
   width: 40%;
 }
 .rasim{
-  padding-left: 10%;
+  padding-left: 20px;
 }
 .web-programming{
   padding-top: 80px;
@@ -111,7 +115,7 @@ section{
 }
 .page-xizmatlar{
   padding-top: 100px;
-  width: 1000px;
+  width: 100%;
 }
 .page-cards{
   padding-top: 50px;
@@ -146,11 +150,11 @@ section{
 }
 .page-bizningloyihalar{
   padding-top: 100px;
-  width: 1100px;
+  width: 100%;
 }
 .rasim1{
   padding-top: 50px;
-  width: 1100px;
+  width: 100%;
 }
 .text3{
   color: grey;
@@ -167,7 +171,7 @@ section{
   background-size: cover;
 }
 .page-video{
-  width: 950px;
+  width: 100%;
   padding-top: 50px;
 }
 .page-video h2{
@@ -179,7 +183,7 @@ section{
 .video-rasim{
   position: relative;
   padding-top: 20px;
-  width: 950px;
+  width: 100%;
   height: 440px;
 }
 .video-buton{
@@ -240,7 +244,7 @@ footer{
 }
 .malumotlar{
   padding-top: 40px;
-  width: 980px;
+  width: 100%;
 }
 .malumotlar ul li{
   margin-left: -30px;
@@ -257,4 +261,284 @@ footer hr{
 footer p{
   padding-top: 17px;
   color: #999999;;
+}
+
+/* start meadi 576 */
+
+@media only screen and (max-width: 576px) {
+  header{
+    width: 100% !important;
+  }
+  .navbar ul{
+    padding-left: 0em !important;
+  }
+  .navbar ul li a{
+    color: white;
+    font-size: .7em;
+  }
+  .head-body h1{
+    font-size: 1em;
+  }
+  .birinchi{
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .xizmatlar{
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .ikkinchi{
+    width: 100% !important;
+    background-color: #f2f2f2;
+    height: auto;
+  }
+  .rasim{
+    padding-left: 0px !important;
+    text-align: center;
+  }
+  .rasim img{
+    width: 370px;
+  }
+  .text2{
+    text-align: center;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .page-rivojlanish{
+    padding-top: 0px !important;
+    width: 100%;
+    height: auto;
+  }
+  .uchinchi{
+    width: 100% !important;
+    height: auto !important;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;;
+  }
+  .qoshimchaku{
+    display: none;
+  }
+  .tortinchi{
+    height: auto !important;
+    background: #F6F6F8;;
+  }
+  .page-bizningloyihalar{
+    padding-top: 30px !important;
+    width: 100%;
+  }
+  .rasim1{
+    padding-top: 50px;
+    width: 100%;
+  }
+  .rasim1 img{
+    width: 240px;
+  }
+  .text3{
+    color: grey;
+    padding-top: 15px !important;
+    width: 100% !important;
+  }
+  .video-rasim{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .mp4{
+    position: relative;
+  }
+  .video-rasim img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  .video-buton{
+    position: absolute;
+    top: 30% !important; 
+    left: 50% !important;
+    width: 100px !important;
+    transform: translate(-50%, -50%);
+  }
+  .hr{
+    display: none;
+  }
+  footer{
+    background: #F6F6F8;
+    height: 888px !important;
+  }
+  .malumotlar{
+    width: 100%;
+  }
+  .mn{
+    width: 100%;
+    margin: 0px !important;
+  }
+  .card{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .page-cards{
+    width: 50% ;
+    margin: 0 auto;
+  }
+  .box1{
+    position: none;
+  }
+  .sayt-yaratish{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .iconsurish{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .text1{
+    text-align: center;
+    position: relative;
+    top: 0em;
+    left: 0em;
+  }
+  .box2{
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  header{
+    width: 100% !important;
+  }
+  .navbar ul{
+    padding-left: 0em !important;
+  }
+  .navbar ul li a{
+    color: white;
+    font-size: .7em;
+  }
+  .head-body h1{
+    font-size: 1em;
+  }
+  .birinchi{
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .xizmatlar{
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .ikkinchi{
+    width: 100% !important;
+    background-color: #f2f2f2;
+    height: auto;
+  }
+  .rasim{
+    padding-left: 0px !important;
+    text-align: center;
+  }
+  .rasim img{
+    width: 370px;
+  }
+  .text2{
+    text-align: center;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .page-rivojlanish{
+    padding-top: 0px !important;
+    width: 100%;
+    height: auto;
+  }
+  .uchinchi{
+    width: 100% !important;
+    height: auto !important;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;;
+  }
+  .qoshimchaku{
+    display: none;
+  }
+  .tortinchi{
+    height: auto !important;
+    background: #F6F6F8;;
+  }
+  .page-bizningloyihalar{
+    padding-top: 30px !important;
+    width: 100%;
+  }
+  .rasim1{
+    padding-top: 50px;
+    width: 100%;
+  }
+  .rasim1 img{
+    width: 240px;
+  }
+  .text3{
+    color: grey;
+    padding-top: 15px !important;
+    width: 100% !important;
+  }
+  .video-rasim{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .mp4{
+    position: relative;
+  }
+  .video-rasim img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  .video-buton{
+    position: absolute;
+    top: 30% !important; 
+    left: 50% !important;
+    width: 100px !important;
+    transform: translate(-50%, -50%);
+  }
+  .hr{
+    display: none;
+  }
+  footer{
+    background: #F6F6F8;
+    height: 888px !important;
+  }
+  .malumotlar{
+    width: 100%;
+  }
+  .mn{
+    width: 100%;
+    margin: 0px !important;
+  }
+  .card{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .page-cards{
+    width: 50% ;
+    margin: 0 auto;
+  }
+  .box1{
+    position: none;
+  }
+  .sayt-yaratish{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .iconsurish{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .text1{
+    text-align: center;
+    position: relative;
+    top: 0em;
+    left: 0em;
+  }
+  .box2{
+    padding-top: 0px;
+  }
+}
+
+/* media 768 */
+
+@media only screen and (min-width: 768px) {
+  
 }
