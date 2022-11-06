@@ -26,10 +26,14 @@ header{
   height: 3.6em;
   padding-left: 45em;
 }
+.navbar ul li a{
+  color: white;
+  font-size: 1em;
+}
 .navbar ul li{
   cursor: pointer;
   color: white;
-  padding: 0em 0.940em;
+  padding: 0px 25px;
 }
 .head-body p{
   font-family: var(--monster);
@@ -46,7 +50,7 @@ section{
 }
 .xizmatlar{
   padding-top: 100px;
-  width: 46.188em;
+  width: 80%;
 }
 .xizmatlar h2{
   font-family: var(--monster);
@@ -87,7 +91,7 @@ section{
 }
 .page-rivojlanish{
   padding-top: 70px;
-  width: 1000px;
+  width: 100%;
   height: 600px;
 }
 .text2{
@@ -95,7 +99,7 @@ section{
   width: 40%;
 }
 .rasim{
-  padding-left: 10%;
+  padding-left: 20px;
 }
 .web-programming{
   padding-top: 80px;
@@ -110,8 +114,8 @@ section{
   background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;;
 }
 .page-xizmatlar{
-  padding-top: 100px;
-  width: 1000px;
+  padding-top: 60px;
+  width: 100%;
 }
 .page-cards{
   padding-top: 50px;
@@ -146,11 +150,11 @@ section{
 }
 .page-bizningloyihalar{
   padding-top: 100px;
-  width: 1100px;
+  width: 100%;
 }
 .rasim1{
   padding-top: 50px;
-  width: 1100px;
+  width: 100%;
 }
 .text3{
   color: grey;
@@ -167,7 +171,7 @@ section{
   background-size: cover;
 }
 .page-video{
-  width: 950px;
+  width: 100%;
   padding-top: 50px;
 }
 .page-video h2{
@@ -240,7 +244,7 @@ footer{
 }
 .malumotlar{
   padding-top: 40px;
-  width: 980px;
+  width: 100%;
 }
 .malumotlar ul li{
   margin-left: -30px;
